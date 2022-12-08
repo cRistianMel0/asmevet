@@ -1,0 +1,103 @@
+
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav > a{
+    text-decoration: none;
+    border: 1.5px solid rgb(0, 214, 107);
+    position: relative;
+    padding: 4px;
+    color: rgb(109, 109, 109);
+    border-radius: 20px 20px 20px 20px;
+}
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 206, 122);
+    box-shadow: 0px 4px 4px gray;
+}
+#linkInicioSesion{
+    color: rgb(3, 170, 87);
+}
+#linkInicioSesion:hover{
+    color: rgb(109, 109, 109);
+}
+#inicioSesion{
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    font-size: 30px;
+}
+#user{
+    font-size: 24px;
+}
+#user:hover{
+    background-color: rgb(219, 219, 219);
+}
+.fontawesome-user{
+    color: rgb(7, 187, 97);
+}
+#linkServicios{   
+    position: absolute;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 30%;
+    top: 22%;
+}
+#linkProductos{
+    position: absolute;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 60%;
+    top: 22%;
+}
+#search{
+    border-radius: 18px 18px 18px 18px;
+    position: absolute;
+    width: 58%;
+    top: 70%;
+    text-align: center;
+    left: 20%;
+}
+
+@media (max-width: 820px) {
+    header{
+        padding-bottom: 40px;
+    }
+    #inicioSesion{
+        left: 40%;
+        top: 22%;
+        font-size: 14px;
+    }
+    #user{
+        font-size: 14px;
+    }
+    #linkServicios{   
+        left: 20%;
+        top: 60%;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size: 18px;
+    }
+    #linkProductos{
+        left: 60%;
+        top: 60%;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size: 18px;
+    }
+    #search{
+        left: 4%;
+        top: 86%;
+        width: 90%;
+    }
+
+}

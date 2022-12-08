@@ -1,0 +1,62 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+@import url(https://weloveiconfonts.com/api/?family=typicons);
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+.brandico-facebook-rect{
+  font-style: normal;
+}
+.brandico-twitter-bird{
+  font-style: normal;
+}
+.brandico-googleplus-rect {
+  font-style: normal;
+}
+.typicons-location{
+  font-style: normal;
+}
+.brandico-instagram-filled {
+  font-style: normal;
+}
+.social{
+  border-radius: 8px 8px 8px 8px;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px;
+  display:block;
+  color:#ffffff;
+  height:40px;
+  font-size: 14px;
+  line-height:40px;
+  width: 165px;
+  text-decoration: solid;
+  text-align:center; 
+}
+.iniciofacebook{
+  background-color: #3b5998;
+}
+.iniciotwitter{
+  background-color: #00acee;
+}
+.iniciogoogle{
+  background-color: #Db4a39;
+  color: white;
+}
+
+.iniciofacebook:hover{
+  background-color: #476ab7;
+}
+.iniciotwitter:hover{
+  background-color: #33bbf1;
+}
+.iniciogoogle:hover{
+  background-color: #e86456;
+}

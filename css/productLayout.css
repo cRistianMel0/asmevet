@@ -1,0 +1,264 @@
+body{
+    height: 1200px;    
+    background-color: #EEEEEE;
+}
+#productContent{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 260px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;        
+}
+#product{
+    flex: 30%;
+    margin-bottom: 40px;
+}
+#product > h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(76, 110, 47);
+    margin-bottom: 30px;
+    padding-right: 200px;
+}
+#productImg{
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0px 4px 4px gray;
+}
+.productImgs{
+    width: 100px;
+    margin-left: 34px;
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.productImgs:hover{
+    box-shadow: 0px 4px 4px gray;
+}
+.flechas{
+    position: absolute;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(4, 151, 58);
+}
+.flechas:hover{
+    color: grey;
+}
+.fontawesome-chevron-right{
+    margin-left: 20px;
+}
+#payment{
+    flex: 40%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 16px 16px 16px 16px;
+}
+#precio{
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(56, 56, 56);
+}
+.cantidadProductos{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+.cantidadProductos > label{
+    margin-right: 10px;
+}
+.cantidadProductos > input{
+    text-align: center;
+    height: 24px;
+    border-radius: 12px 12px 12px 12px;
+}
+.comprar{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgb(47, 221, 111);
+    border-radius: 12px 12px 12px 12px;
+}
+.comprar:hover{
+    box-shadow: 0px 4px 4px gray;
+    background-color: rgb(69, 139, 58);
+}
+#envio{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: rgb(63, 138, 203);
+}
+#envio > p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+#infoProduct{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    color: rgb(56, 56, 56);
+}
+#resena{
+    flex: 50%;
+}
+#valoracion{
+    flex: 50%;
+    text-align: center;
+}
+.fontawesome-star{
+    color: aliceblue;
+    font-size: 50px;
+}
+.fontawesome-star:hover{
+    color: rgb(248, 248, 0);
+}
+#relProducts{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.relProducts{
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 60px;
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 40px 20px 40px 20px;
+}
+.relProducts:hover{
+    box-shadow: 0px 4px 4px gray;
+}
+
+@media (min-width: 840px) and (max-width: 1920px) {
+    #productContent{
+    padding-top: 200px;     
+}
+    #product{
+        margin-left: 15%;
+    }
+}
+@media (max-width: 820px) {
+    #productContent{
+        margin-left: 4%;
+        margin-right: 8%;
+        padding-top: 240px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #product > h1{
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    #productImg{
+        width: 200px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+    .productImgs{
+        width: 40px;
+        margin-left: 26px;
+        border-top: 1px solid gray;
+        border-bottom: 3px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    .flechas{
+        margin-top: 15px;
+        margin-left: 4px;
+    }
+    #payment{
+        margin-left: 0px;
+    }
+    #precio{
+        font-size: 24px;
+    }
+    .cantidadProductos{
+        font-size: 14px;
+    }
+    .cantidadProductos > input{
+        text-align: center;
+        height: 20px;
+        border-radius: 12px 12px 12px 12px;
+    }
+    .comprar{
+        font-size: 8px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        color: white;
+        background-color: rgb(51, 219, 112);
+    }
+    #envio{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    #envio > p{
+        font-size: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    h2{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #resena{
+        flex: 80%;
+    }
+    #resena > p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #valoracion{
+        flex: 80%;
+    }
+    .fontawesome-star{
+        font-size: 24px;
+    }
+    #relProducts{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .relProducts{
+        width: 160px;
+        border-radius: 20px 8px 20px 8px;
+        margin-left: 75px;
+    }
+}

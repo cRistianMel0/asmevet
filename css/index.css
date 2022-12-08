@@ -1,0 +1,68 @@
+* {  
+    list-style: none; 
+}
+body {  
+    background-color: #EEEEEE;
+}
+#page { 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;      
+}
+#content > h1 {  
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(3, 170, 87);
+    border-bottom: 1px solid #ddd;  
+}
+#horario{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+#horario:hover{
+    box-shadow: 0px 4px 4px gray;
+}
+
+@media (min-width: 840px) and (max-width: 1920px) {
+    #horario{
+        width: 300px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+}
+@media (max-width: 820px) {
+    #page{
+        padding-top: 160px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 8%;
+        margin-right: 8%;
+        background-color: white;
+        border-radius: 0px 0px 40px 40px;      
+    }
+    #content > h1 {  
+        font-size: 22px;
+        margin-left: 20px;  
+    }
+    #horario{
+        width: 250px;
+        height: 230px;
+        margin-top: 10px;   
+        margin-left: 20px;
+    }
+}

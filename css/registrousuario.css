@@ -1,0 +1,66 @@
+.fatcontainer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/imgInicioSesion/forest.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.containertitle{
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.singup{
+    border-radius: 10px 10px 10px 10px;
+    background-color: azure;
+    text-align: center;
+    height: 560px;
+    width: 300px;
+
+    font-family: 'Raleway', sans-serif
+}
+img{
+    width: 270px;
+    height: 90px;
+    margin: 6px;
+}
+.buttonsingup{
+    border: 2px solid gray;
+}
+.final:hover{
+    background-color: gray;
+}
+.final{
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    display: inline-block;
+    color: black;
+    height:20px;
+    font-size: 14px;
+    line-height:20px;
+    width: 120px;
+    text-decoration: solid; 
+}
+.inputsingup{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+@media (max-width: 1050px){
+    .fatcontainer{
+        background-size: auto auto;
+    }
+}

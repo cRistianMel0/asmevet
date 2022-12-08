@@ -1,0 +1,83 @@
+footer{
+    height: 200px;
+    background-color: rgb(200, 255, 237);
+    margin-top: 80px;
+    padding-top: 20px;
+    border-radius: 800px 800px 0px 0px;
+    text-align: center;
+}
+footer > h2{
+    color: rgb(107, 107, 107);
+    filter: drop-shadow(0px 0px 4px  rgb(255, 255, 255));
+    padding-bottom: 20px;
+}
+footer > p{
+    color: rgb(142, 142, 142);
+    filter: drop-shadow(0px 0px 1px white);
+    padding-left: 180px;
+    padding-right: 180px;
+}
+#whatsapp{
+    width: 120px;
+    position: fixed;
+    top: 88%;
+    bottom: 0px;
+    left: 94%;
+    right: 0px;
+}
+
+.redessociales{
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    display: inline-block;
+    color:#ffffff;
+    height:40px;
+    font-size: 14px;
+    line-height:40px;
+    width: 165px;
+    text-decoration: solid;
+    text-align:center; 
+}
+.facebook{
+    background-color: #3b5998;
+}
+.instagram{
+    background-color: #C13584;
+}
+.ubicacion{
+    background-color: rgb(181, 91, 91);
+}
+.socialspan{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+@media (max-width: 1366px) {
+    #whatsapp{
+        width: 90px;
+        top: 84%;
+        left: 92%;
+    }
+}
+@media (max-width: 820px) {
+    footer{
+        border-radius: 80px 80px 0px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer > p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #whatsapp{
+        width: 60px;
+        top: 91%;
+        left: 78%;
+    }
+}

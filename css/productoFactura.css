@@ -1,0 +1,17 @@
+#content{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(125, 170, 170);
+    display: flex;
+    justify-content: center;
+}
+#factura{
+    width: 60%;
+    height: 900px;
+    margin-top: 6%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: white;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerfather{
+    background-image: url("../img/imgInicioSesion/forest.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerlogin{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+.headerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+img{
+    width: 270px;
+    height: 90px;
+    margin: 6px;
+}
+input{
+    height: 25px;
+}
+.containerform{
+    display: grid;
+    grid-template-columns: 199px 2px 199px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.izquierda {
+    text-align: center;
+}
+hr{
+    border: 1px solid rgb(99, 99, 99);
+    background-color: rgb(99, 99, 99);
+}
+.derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-family: 'Raleway', sans-serif;
+}
+input{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+}
+.email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.password{
+    margin-top: 10px;
+}
+.finaloptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.loginbutton{
+    margin-left: 55px;
+}
+@media(max-width: 405px){
+    .containerform{
+        grid-template-columns: 100%;
+        text-align: center;
+        width: 300px;
+    }
+    .headerimg{
+        margin-bottom: 10px;
+    }
+    img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .izquierda{
+        margin-bottom: 15px;
+        border-right: 0px;
+        width: 300px;
+    }
+    .derecha{
+        margin-top: 10px;
+    }
+    hr{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .loginbutton{
+        margin-left: 0px;
+    }
+    
+}
+@media (max-width: 1050px){
+    .containerfather{
+        background-size: auto auto;
+    }
+}
+
